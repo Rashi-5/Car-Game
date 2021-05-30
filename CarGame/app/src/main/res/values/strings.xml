@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CarGame</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="identify_car_image">Identyfy Car Image</string>
+    <string name="hints">Hints</string>
+    <string name="car_make">Car Make</string>
+    <string name="timer">Timer</string>
+    <string name="randomImg">TODO</string>
+    <string name="start">Start</string>
+    <string name="identify">Identify</string>
+    <string name="answer">Answer</string>
+    <string name="carname">carName</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="startadvanced">Start</string>
+    <string name="second_image">Second Image</string>
+    <string name="third_image">Third image</string>
+    <string name="first_image">First Image</string>
+    <string name="submit">Submit</string>
+    <string name="result">Result</string>
+    <string name="car_name">car name</string>
+    <string name="starthint">Start</string>
+    <string name="lives">Lives</string>
+    <string name="check">Submit</string>
+    <string name="results">results</string>
+    <string name="first_answer">First Answer</string>
+    <string name="second_answer">Second Answer</string>
+    <string name="third_answer">Third Answer</string>
+    <string name="_00">00</string>
+    <string name="next">next</string>
+    <string name="oo">.00</string>
+    <string name="_oo">oo</string>
+
+</resources>

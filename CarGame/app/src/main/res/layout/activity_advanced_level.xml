@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_color"
+    tools:context=".AdvancedLevel">
+
+    <Button
+        android:id="@+id/advanced"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="StartActivity"
+        android:text="@string/next"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/randomImg1"
+        android:layout_width="304dp"
+        android:layout_height="135dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/randomImg"
+        app:layout_constraintBottom_toTopOf="@+id/firstText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correct_view" />
+
+    <ImageView
+        android:id="@+id/randomImg2"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/randomImg"
+        app:layout_constraintBottom_toTopOf="@+id/secondText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstText" />
+
+    <ImageView
+        android:id="@+id/randomImg3"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/randomImg"
+        app:layout_constraintBottom_toTopOf="@+id/thirdText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondText" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/firstText"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="resetInput1"
+        android:text="@string/first_image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/randomImg2"
+        app:layout_constraintEnd_toStartOf="@+id/answer1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomImg1" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/secondText"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="resetInput2"
+        android:text="@string/second_image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/randomImg3"
+        app:layout_constraintEnd_toStartOf="@+id/answer2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomImg2" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/thirdText"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="resetInput3"
+        android:text="@string/third_image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toTopOf="@+id/advanced"
+        app:layout_constraintEnd_toStartOf="@+id/answer3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomImg3" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="@string/submit"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/advanced"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/advanced" />
+
+    <TextView
+        android:id="@+id/correct_view"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/black"
+        android:gravity="clip_vertical|center_horizontal|center_vertical"
+        android:text="@string/result"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/randomImg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/first_answer"
+        app:layout_constraintBaseline_toBaselineOf="@+id/firstText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/firstText" />
+
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/second_answer"
+        app:layout_constraintBaseline_toBaselineOf="@+id/secondText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/secondText" />
+
+    <TextView
+        android:id="@+id/answer3"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/black"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/third_answer"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/thirdText"
+        app:layout_constraintTop_toBottomOf="@+id/randomImg3" />
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oo"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/firstText"
+        app:layout_constraintEnd_toStartOf="@+id/randomImg1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correct_view"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

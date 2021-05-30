@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/audi </item>
+        <item>@drawable/bmw </item>
+        <item>@drawable/lambo </item>
+        <item>@drawable/bentley </item>
+        <item>@drawable/hummer </item>
+        <item>@drawable/jaguar_xf</item>
+        <item>@drawable/rolls_royce_cullinan</item>
+        <item>@drawable/rolls_royce_dawn</item>
+        <item>@drawable/rolls_royce_ghost</item>
+        <item>@drawable/rolls_royce_phantom</item>
+        <item>@drawable/rolls_royce_wraith</item>
+        <item>@drawable/tesla_model_s</item>
+        <item>@drawable/tesla_model_x</item>
+        <item>@drawable/tesla_model_y</item>
+        <item>@drawable/acura_nsx</item>
+        <item>@drawable/chevrolet_cruze</item>
+        <item>@drawable/ferari_enzo</item>
+        <item>@drawable/ford_fiesta</item>
+        <item>@drawable/ford_raptor</item>
+        <item>@drawable/honda_civic</item>
+        <item>@drawable/kia_rio</item>
+        <item>@drawable/land_rover</item>
+        <item>@drawable/lincoln</item>
+        <item>@drawable/mazda_rx7</item>
+        <item>@drawable/mini</item>
+        <item>@drawable/nissan_patrol</item>
+        <item>@drawable/mercedes_benz</item>
+        <item>@drawable/subaru_wrx</item>
+        <item>@drawable/suzuki_swift</item>
+        <item>@drawable/toyota_corolla</item>
+    </array>
+
+    <string-array name="names">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Lamborghini</item>
+        <item>Bentley</item>
+        <item>Hummer</item>
+        <item>Jaguar XF</item>
+        <item>Rolls Royce Cullinan</item>
+        <item>Rolls Royce Dawn</item>
+        <item>Rolls Royce Ghost</item>
+        <item>Rolls Royce Phantom</item>
+        <item>Rolls Royce Wraith</item>
+        <item>Tesla Model S</item>
+        <item>Tesla Model X</item>
+        <item>Tesla Model Y</item>
+        <item>Acura nsx</item>
+        <item>Chevrolet cruze</item>
+        <item>Ferrari enzo</item>
+        <item>Ford fiesta</item>
+        <item>Ford raptor</item>
+        <item>Honda civic</item>
+        <item>Kia rio</item>
+        <item>Land rover</item>
+        <item>Lincoln</item>
+        <item>Mazda RX7</item>
+        <item>Mini Cooper</item>
+        <item>Nissan patrol</item>
+        <item>Mercedes Benz</item>
+        <item>Subaru WRX</item>
+        <item>Suzuki Swift</item>
+        <item>Toyota Corolla</item>
+    </string-array>
+
+    <string-array name="manufacturer">
+        <item>Volkswagen</item>
+        <item>BMW</item>
+        <item>Volkswagen</item>
+        <item>Volkswagen</item>
+        <item>GMC</item>
+        <item>Tata</item>
+        <item>BMW</item>
+        <item>BMW</item>
+        <item>BMW</item>
+        <item>BMW</item>
+        <item>BMW</item>
+        <item>Tesla</item>
+        <item>Tesla</item>
+        <item>Tesla</item>
+        <item>Honda</item>
+        <item>GMC</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Tata</item>
+        <item>Ford</item>
+        <item>Mazda</item>
+        <item>BMW</item>
+        <item>Nissan</item>
+        <item>Mercedes</item>
+        <item>Toyota</item>
+        <item>Toyota</item>
+        <item>Toyota</item>
+    </string-array>
+
+    <string-array name="brand">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Lamborghini</item>
+        <item>Bentley</item>
+        <item>Hummer</item>
+        <item>Jaguar</item>
+        <item>Rolls Royce</item>
+        <item>Rolls Royce</item>
+        <item>Rolls Royce</item>
+        <item>Rolls Royce</item>
+        <item>Rolls Royce</item>
+        <item>Tesla</item>
+        <item>Tesla</item>
+        <item>Tesla</item>
+        <item>Acura</item>
+        <item>Ferrari</item>
+        <item>Ford</item>
+        <item>Ford</item>
+        <item>Civic</item>
+        <item>Kia rio</item>
+        <item>Land rover</item>
+        <item>Lincoln</item>
+        <item>Mazda</item>
+        <item>Mini Cooper</item>
+        <item>Nissan patrol</item>
+        <item>Mercedes</item>
+        <item>Subaru</item>
+        <item>Swift</item>
+        <item>Corolla</item>
+    </string-array>
+
+</resources>
